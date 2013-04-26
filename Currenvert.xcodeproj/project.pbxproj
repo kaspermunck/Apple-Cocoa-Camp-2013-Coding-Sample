@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72EE580170F3D6C00998233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE57F170F3D6C00998233 /* UIKit.framework */; };
+		A72EE582170F3D6C00998233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE581170F3D6C00998233 /* Foundation.framework */; };
+		A72EE584170F3D6C00998233 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE583170F3D6C00998233 /* CoreGraphics.framework */; };
+		A72EE58A170F3D6C00998233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A72EE588170F3D6C00998233 /* InfoPlist.strings */; };
+		A72EE58C170F3D6C00998233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE58B170F3D6C00998233 /* main.m */; };
+		A72EE590170F3D6C00998233 /* CCVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE58F170F3D6C00998233 /* CCVAppDelegate.m */; };
+		A72EE592170F3D6C00998233 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE591170F3D6C00998233 /* Default.png */; };
+		A72EE594170F3D6C00998233 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE593170F3D6C00998233 /* Default@2x.png */; };
+		A72EE596170F3D6C00998233 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE595170F3D6C00998233 /* Default-568h@2x.png */; };
+		A72EE59E170F3D6D00998233 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE59D170F3D6D00998233 /* SenTestingKit.framework */; };
+		A72EE59F170F3D6D00998233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE57F170F3D6C00998233 /* UIKit.framework */; };
+		A72EE5A0170F3D6D00998233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE581170F3D6C00998233 /* Foundation.framework */; };
+		A72EE5A8170F3D6D00998233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5A6170F3D6D00998233 /* InfoPlist.strings */; };
+		A72EE5B9170F3DC800998233 /* CCVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5B7170F3DC800998233 /* CCVMainViewController.m */; };
+		A72EE5BA170F3DC800998233 /* CCVMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5B8170F3DC800998233 /* CCVMainViewController.xib */; };
+		A72EE5BC170F40DE00998233 /* CCVKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5BB170F40DE00998233 /* CCVKeyboardView.xib */; };
+		A72EE5BF170F41BA00998233 /* CCVKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5BE170F41BA00998233 /* CCVKeyboardView.m */; };
+		A72EE5C3170F44A200998233 /* UIView+CCVNibLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5C2170F44A200998233 /* UIView+CCVNibLoading.m */; };
+		A72EE5C9170F4FA400998233 /* CCVAppSpotCurrencyConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5C8170F4FA300998233 /* CCVAppSpotCurrencyConverter.m */; };
+		A72EE5CC170F5A6600998233 /* CCVKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5CB170F5A6600998233 /* CCVKeyboardTests.m */; };
+		A72EE5D0170F5D3C00998233 /* CCVCurrencyConverterStub.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5CF170F5D3C00998233 /* CCVCurrencyConverterStub.m */; };
+		A72EE5D3170F5DB500998233 /* CCVMainViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5D2170F5DB500998233 /* CCVMainViewControllerTests.m */; };
+		A72EE5DD170F687000998233 /* button-blue-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5D5170F687000998233 /* button-blue-highlighted@2x.png */; };
+		A72EE5DE170F687000998233 /* button-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5D6170F687000998233 /* button-blue@2x.png */; };
+		A72EE5DF170F687000998233 /* button-green-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5D7170F687000998233 /* button-green-highlighted@2x.png */; };
+		A72EE5E0170F687000998233 /* button-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5D8170F687000998233 /* button-green@2x.png */; };
+		A72EE5E1170F687000998233 /* button-red-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5D9170F687000998233 /* button-red-highlighted@2x.png */; };
+		A72EE5E2170F687000998233 /* button-red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5DA170F687000998233 /* button-red@2x.png */; };
+		A72EE5E3170F687000998233 /* button-regular-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5DB170F687000998233 /* button-regular-highlighted@2x.png */; };
+		A72EE5E4170F687000998233 /* button-regular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5DC170F687000998233 /* button-regular@2x.png */; };
+		A72EE5E6170F6ECA00998233 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72EE5E5170F6ECA00998233 /* QuartzCore.framework */; };
+		A72EE5E9170F747700998233 /* CAKeyframeAnimation+CCVAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = A72EE5E8170F747700998233 /* CAKeyframeAnimation+CCVAnimations.m */; };
+		A72EE5EF170FB22C00998233 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5EE170FB22C00998233 /* Icon@2x.png */; };
+		A72EE5F1170FB23100998233 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A72EE5F0170FB23100998233 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A72EE5A1170F3D6D00998233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A72EE574170F3D6C00998233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A72EE57B170F3D6C00998233;
+			remoteInfo = Currenvert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A72EE57C170F3D6C00998233 /* Currenvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currenvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72EE57F170F3D6C00998233 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A72EE581170F3D6C00998233 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A72EE583170F3D6C00998233 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A72EE587170F3D6C00998233 /* Currenvert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Currenvert-Info.plist"; sourceTree = "<group>"; };
+		A72EE589170F3D6C00998233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A72EE58B170F3D6C00998233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A72EE58D170F3D6C00998233 /* Currenvert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Currenvert-Prefix.pch"; sourceTree = "<group>"; };
+		A72EE58E170F3D6C00998233 /* CCVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCVAppDelegate.h; sourceTree = "<group>"; };
+		A72EE58F170F3D6C00998233 /* CCVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCVAppDelegate.m; sourceTree = "<group>"; };
+		A72EE591170F3D6C00998233 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A72EE593170F3D6C00998233 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A72EE595170F3D6C00998233 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A72EE59C170F3D6D00998233 /* CurrenvertTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrenvertTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72EE59D170F3D6D00998233 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A72EE5A5170F3D6D00998233 /* CurrenvertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrenvertTests-Info.plist"; sourceTree = "<group>"; };
+		A72EE5A7170F3D6D00998233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A72EE5B6170F3DC800998233 /* CCVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVMainViewController.h; sourceTree = "<group>"; };
+		A72EE5B7170F3DC800998233 /* CCVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVMainViewController.m; sourceTree = "<group>"; };
+		A72EE5B8170F3DC800998233 /* CCVMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCVMainViewController.xib; sourceTree = "<group>"; };
+		A72EE5BB170F40DE00998233 /* CCVKeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCVKeyboardView.xib; sourceTree = "<group>"; };
+		A72EE5BD170F41BA00998233 /* CCVKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVKeyboardView.h; sourceTree = "<group>"; };
+		A72EE5BE170F41BA00998233 /* CCVKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVKeyboardView.m; sourceTree = "<group>"; };
+		A72EE5C1170F44A200998233 /* UIView+CCVNibLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CCVNibLoading.h"; sourceTree = "<group>"; };
+		A72EE5C2170F44A200998233 /* UIView+CCVNibLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CCVNibLoading.m"; sourceTree = "<group>"; };
+		A72EE5C6170F4E6100998233 /* CCVCurrencyConverting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCVCurrencyConverting.h; sourceTree = "<group>"; };
+		A72EE5C7170F4FA300998233 /* CCVAppSpotCurrencyConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVAppSpotCurrencyConverter.h; sourceTree = "<group>"; };
+		A72EE5C8170F4FA300998233 /* CCVAppSpotCurrencyConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVAppSpotCurrencyConverter.m; sourceTree = "<group>"; };
+		A72EE5CA170F5A6600998233 /* CCVKeyboardTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVKeyboardTests.h; sourceTree = "<group>"; };
+		A72EE5CB170F5A6600998233 /* CCVKeyboardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVKeyboardTests.m; sourceTree = "<group>"; };
+		A72EE5CE170F5D3C00998233 /* CCVCurrencyConverterStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVCurrencyConverterStub.h; sourceTree = "<group>"; };
+		A72EE5CF170F5D3C00998233 /* CCVCurrencyConverterStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVCurrencyConverterStub.m; sourceTree = "<group>"; };
+		A72EE5D1170F5DB500998233 /* CCVMainViewControllerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCVMainViewControllerTests.h; sourceTree = "<group>"; };
+		A72EE5D2170F5DB500998233 /* CCVMainViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCVMainViewControllerTests.m; sourceTree = "<group>"; };
+		A72EE5D5170F687000998233 /* button-blue-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-blue-highlighted@2x.png"; sourceTree = "<group>"; };
+		A72EE5D6170F687000998233 /* button-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-blue@2x.png"; sourceTree = "<group>"; };
+		A72EE5D7170F687000998233 /* button-green-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-green-highlighted@2x.png"; sourceTree = "<group>"; };
+		A72EE5D8170F687000998233 /* button-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-green@2x.png"; sourceTree = "<group>"; };
+		A72EE5D9170F687000998233 /* button-red-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-red-highlighted@2x.png"; sourceTree = "<group>"; };
+		A72EE5DA170F687000998233 /* button-red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-red@2x.png"; sourceTree = "<group>"; };
+		A72EE5DB170F687000998233 /* button-regular-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-regular-highlighted@2x.png"; sourceTree = "<group>"; };
+		A72EE5DC170F687000998233 /* button-regular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-regular@2x.png"; sourceTree = "<group>"; };
+		A72EE5E5170F6ECA00998233 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A72EE5E7170F747700998233 /* CAKeyframeAnimation+CCVAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimation+CCVAnimations.h"; sourceTree = "<group>"; };
+		A72EE5E8170F747700998233 /* CAKeyframeAnimation+CCVAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAKeyframeAnimation+CCVAnimations.m"; sourceTree = "<group>"; };
+		A72EE5EE170FB22C00998233 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A72EE5F0170FB23100998233 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72EE579170F3D6C00998233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EE5E6170F6ECA00998233 /* QuartzCore.framework in Frameworks */,
+				A72EE580170F3D6C00998233 /* UIKit.framework in Frameworks */,
+				A72EE582170F3D6C00998233 /* Foundation.framework in Frameworks */,
+				A72EE584170F3D6C00998233 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72EE598170F3D6D00998233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EE59E170F3D6D00998233 /* SenTestingKit.framework in Frameworks */,
+				A72EE59F170F3D6D00998233 /* UIKit.framework in Frameworks */,
+				A72EE5A0170F3D6D00998233 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72EE573170F3D6C00998233 = {
+			isa = PBXGroup;
+			children = (
+				A72EE5F0170FB23100998233 /* Icon.png */,
+				A72EE5EE170FB22C00998233 /* Icon@2x.png */,
+				A72EE585170F3D6C00998233 /* Currenvert */,
+				A72EE5A3170F3D6D00998233 /* CurrenvertTests */,
+				A72EE57E170F3D6C00998233 /* Frameworks */,
+				A72EE57D170F3D6C00998233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A72EE57D170F3D6C00998233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE57C170F3D6C00998233 /* Currenvert.app */,
+				A72EE59C170F3D6D00998233 /* CurrenvertTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A72EE57E170F3D6C00998233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5E5170F6ECA00998233 /* QuartzCore.framework */,
+				A72EE57F170F3D6C00998233 /* UIKit.framework */,
+				A72EE581170F3D6C00998233 /* Foundation.framework */,
+				A72EE583170F3D6C00998233 /* CoreGraphics.framework */,
+				A72EE59D170F3D6D00998233 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A72EE585170F3D6C00998233 /* Currenvert */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5D4170F686400998233 /* Resources */,
+				A72EE5C5170F4E0900998233 /* Interface */,
+				A72EE5C0170F448E00998233 /* Category */,
+				A72EE5B5170F3D9200998233 /* Controller */,
+				A72EE5B4170F3D8D00998233 /* View */,
+				A72EE58E170F3D6C00998233 /* CCVAppDelegate.h */,
+				A72EE58F170F3D6C00998233 /* CCVAppDelegate.m */,
+				A72EE586170F3D6C00998233 /* Supporting Files */,
+				A72EE5C7170F4FA300998233 /* CCVAppSpotCurrencyConverter.h */,
+				A72EE5C8170F4FA300998233 /* CCVAppSpotCurrencyConverter.m */,
+			);
+			path = Currenvert;
+			sourceTree = "<group>";
+		};
+		A72EE586170F3D6C00998233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE587170F3D6C00998233 /* Currenvert-Info.plist */,
+				A72EE588170F3D6C00998233 /* InfoPlist.strings */,
+				A72EE58B170F3D6C00998233 /* main.m */,
+				A72EE58D170F3D6C00998233 /* Currenvert-Prefix.pch */,
+				A72EE591170F3D6C00998233 /* Default.png */,
+				A72EE593170F3D6C00998233 /* Default@2x.png */,
+				A72EE595170F3D6C00998233 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A72EE5A3170F3D6D00998233 /* CurrenvertTests */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5CD170F5C9800998233 /* Stubs */,
+				A72EE5A4170F3D6D00998233 /* Supporting Files */,
+				A72EE5CA170F5A6600998233 /* CCVKeyboardTests.h */,
+				A72EE5CB170F5A6600998233 /* CCVKeyboardTests.m */,
+				A72EE5D1170F5DB500998233 /* CCVMainViewControllerTests.h */,
+				A72EE5D2170F5DB500998233 /* CCVMainViewControllerTests.m */,
+			);
+			path = CurrenvertTests;
+			sourceTree = "<group>";
+		};
+		A72EE5A4170F3D6D00998233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5A5170F3D6D00998233 /* CurrenvertTests-Info.plist */,
+				A72EE5A6170F3D6D00998233 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A72EE5B4170F3D8D00998233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5B8170F3DC800998233 /* CCVMainViewController.xib */,
+				A72EE5C4170F45E100998233 /* Keyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A72EE5B5170F3D9200998233 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5B6170F3DC800998233 /* CCVMainViewController.h */,
+				A72EE5B7170F3DC800998233 /* CCVMainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A72EE5C0170F448E00998233 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5C1170F44A200998233 /* UIView+CCVNibLoading.h */,
+				A72EE5C2170F44A200998233 /* UIView+CCVNibLoading.m */,
+				A72EE5E7170F747700998233 /* CAKeyframeAnimation+CCVAnimations.h */,
+				A72EE5E8170F747700998233 /* CAKeyframeAnimation+CCVAnimations.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		A72EE5C4170F45E100998233 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5BE170F41BA00998233 /* CCVKeyboardView.m */,
+				A72EE5BB170F40DE00998233 /* CCVKeyboardView.xib */,
+				A72EE5BD170F41BA00998233 /* CCVKeyboardView.h */,
+			);
+			name = Keyboard;
+			sourceTree = "<group>";
+		};
+		A72EE5C5170F4E0900998233 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5C6170F4E6100998233 /* CCVCurrencyConverting.h */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		A72EE5CD170F5C9800998233 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5CE170F5D3C00998233 /* CCVCurrencyConverterStub.h */,
+				A72EE5CF170F5D3C00998233 /* CCVCurrencyConverterStub.m */,
+			);
+			name = Stubs;
+			sourceTree = "<group>";
+		};
+		A72EE5D4170F686400998233 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A72EE5D5170F687000998233 /* button-blue-highlighted@2x.png */,
+				A72EE5D6170F687000998233 /* button-blue@2x.png */,
+				A72EE5D7170F687000998233 /* button-green-highlighted@2x.png */,
+				A72EE5D8170F687000998233 /* button-green@2x.png */,
+				A72EE5D9170F687000998233 /* button-red-highlighted@2x.png */,
+				A72EE5DA170F687000998233 /* button-red@2x.png */,
+				A72EE5DB170F687000998233 /* button-regular-highlighted@2x.png */,
+				A72EE5DC170F687000998233 /* button-regular@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A72EE57B170F3D6C00998233 /* Currenvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72EE5AE170F3D6D00998233 /* Build configuration list for PBXNativeTarget "Currenvert" */;
+			buildPhases = (
+				A72EE578170F3D6C00998233 /* Sources */,
+				A72EE579170F3D6C00998233 /* Frameworks */,
+				A72EE57A170F3D6C00998233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Currenvert;
+			productName = Currenvert;
+			productReference = A72EE57C170F3D6C00998233 /* Currenvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A72EE59B170F3D6D00998233 /* CurrenvertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72EE5B1170F3D6D00998233 /* Build configuration list for PBXNativeTarget "CurrenvertTests" */;
+			buildPhases = (
+				A72EE597170F3D6D00998233 /* Sources */,
+				A72EE598170F3D6D00998233 /* Frameworks */,
+				A72EE599170F3D6D00998233 /* Resources */,
+				A72EE59A170F3D6D00998233 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A72EE5A2170F3D6D00998233 /* PBXTargetDependency */,
+			);
+			name = CurrenvertTests;
+			productName = CurrenvertTests;
+			productReference = A72EE59C170F3D6D00998233 /* CurrenvertTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A72EE574170F3D6C00998233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCV;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KAPPS;
+			};
+			buildConfigurationList = A72EE577170F3D6C00998233 /* Build configuration list for PBXProject "Currenvert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A72EE573170F3D6C00998233;
+			productRefGroup = A72EE57D170F3D6C00998233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A72EE57B170F3D6C00998233 /* Currenvert */,
+				A72EE59B170F3D6D00998233 /* CurrenvertTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A72EE57A170F3D6C00998233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EE58A170F3D6C00998233 /* InfoPlist.strings in Resources */,
+				A72EE592170F3D6C00998233 /* Default.png in Resources */,
+				A72EE594170F3D6C00998233 /* Default@2x.png in Resources */,
+				A72EE596170F3D6C00998233 /* Default-568h@2x.png in Resources */,
+				A72EE5BA170F3DC800998233 /* CCVMainViewController.xib in Resources */,
+				A72EE5BC170F40DE00998233 /* CCVKeyboardView.xib in Resources */,
+				A72EE5DD170F687000998233 /* button-blue-highlighted@2x.png in Resources */,
+				A72EE5DE170F687000998233 /* button-blue@2x.png in Resources */,
+				A72EE5DF170F687000998233 /* button-green-highlighted@2x.png in Resources */,
+				A72EE5E0170F687000998233 /* button-green@2x.png in Resources */,
+				A72EE5E1170F687000998233 /* button-red-highlighted@2x.png in Resources */,
+				A72EE5E2170F687000998233 /* button-red@2x.png in Resources */,
+				A72EE5E3170F687000998233 /* button-regular-highlighted@2x.png in Resources */,
+				A72EE5E4170F687000998233 /* button-regular@2x.png in Resources */,
+				A72EE5EF170FB22C00998233 /* Icon@2x.png in Resources */,
+				A72EE5F1170FB23100998233 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72EE599170F3D6D00998233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EE5A8170F3D6D00998233 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A72EE59A170F3D6D00998233 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72EE578170F3D6C00998233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EE58C170F3D6C00998233 /* main.m in Sources */,
+				A72EE590170F3D6C00998233 /* CCVAppDelegate.m in Sources */,
+				A72EE5B9170F3DC800998233 /* CCVMainViewController.m in Sources */,
+				A72EE5BF170F41BA00998233 /* CCVKeyboardView.m in Sources */,
+				A72EE5C3170F44A200998233 /* UIView+CCVNibLoading.m in Sources */,
+				A72EE5C9170F4FA400998233 /* CCVAppSpotCurrencyConverter.m in Sources */,
+				A72EE5E9170F747700998233 /* CAKeyframeAnimation+CCVAnimations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72EE597170F3D6D00998233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72EE5CC170F5A6600998233 /* CCVKeyboardTests.m in Sources */,
+				A72EE5D0170F5D3C00998233 /* CCVCurrencyConverterStub.m in Sources */,
+				A72EE5D3170F5DB500998233 /* CCVMainViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A72EE5A2170F3D6D00998233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A72EE57B170F3D6C00998233 /* Currenvert */;
+			targetProxy = A72EE5A1170F3D6D00998233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A72EE588170F3D6C00998233 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72EE589170F3D6C00998233 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A72EE5A6170F3D6D00998233 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72EE5A7170F3D6D00998233 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72EE5AC170F3D6D00998233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A72EE5AD170F3D6D00998233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A72EE5AF170F3D6D00998233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currenvert/Currenvert-Prefix.pch";
+				INFOPLIST_FILE = "Currenvert/Currenvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A72EE5B0170F3D6D00998233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currenvert/Currenvert-Prefix.pch";
+				INFOPLIST_FILE = "Currenvert/Currenvert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A72EE5B2170F3D6D00998233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Currenvert.app/Currenvert";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currenvert/Currenvert-Prefix.pch";
+				INFOPLIST_FILE = "CurrenvertTests/CurrenvertTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A72EE5B3170F3D6D00998233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Currenvert.app/Currenvert";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Currenvert/Currenvert-Prefix.pch";
+				INFOPLIST_FILE = "CurrenvertTests/CurrenvertTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72EE577170F3D6C00998233 /* Build configuration list for PBXProject "Currenvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72EE5AC170F3D6D00998233 /* Debug */,
+				A72EE5AD170F3D6D00998233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72EE5AE170F3D6D00998233 /* Build configuration list for PBXNativeTarget "Currenvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72EE5AF170F3D6D00998233 /* Debug */,
+				A72EE5B0170F3D6D00998233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A72EE5B1170F3D6D00998233 /* Build configuration list for PBXNativeTarget "CurrenvertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72EE5B2170F3D6D00998233 /* Debug */,
+				A72EE5B3170F3D6D00998233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A72EE574170F3D6C00998233 /* Project object */;
+}
